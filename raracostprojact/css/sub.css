@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+
+.sub_visual{background: url(../img/sub/sub_visual.png) no-repeat center /cover;width: 100%; height: 700px; text-align: center; position: relative; object-fit: cover;}
+
+
+.sub_visual .sub_brand_txt{position: absolute; left: 50%; top: 30%; transform: translate(-50%,30%);color: #fff;}
+.sub_visual .sub_brand_txt h2{padding: 0 0 50px 0; font-size: 3.5rem;}
+
+
+
+@media (max-width:1200px) {
+
+    .sub_visual .sub_brand_txt h2{font-size: 3rem;}
+    .sub_visual .sub_brand_txt p{font-size: 1.4rem;}
+
+  
+   }
+   
+   
+   @media (max-width:768px) {
+
+    .sub_visual{object-fit: cover;}
+    .sub_visual .sub_brand_txt h2{font-size: 2rem;}
+    .sub_visual .sub_brand_txt p{font-size: 1.3rem;}
+       
+   }
+   
+
+
+
+
+
+
+
+.fust{display: flex; gap: 50px;align-items: center; }
+
+.fust .sub_right1{ align-items: center; padding: 0 0 0 100px; font-family: "Orbit", sans-serif;}
+
+
+
+.sec{display: flex; gap: 50px; justify-content: space-between; align-items: center; }
+.sec .sub_right2 img{ width: 100%;}
+
+
+.sec .sub_left2{  padding: 0 0 0 100px; font-family: "Orbit", sans-serif;}
+.sec .sub_left2 span{font-size: 2.5rem;}
+
+
+@media (max-width:1200px) {
+
+
+    .fust{gap: 0;align-items: center;}
+    .fust .sub_left1 img{width: 100%;}
+    .fust .sub_right1{ padding: 0 100px;}
+    .fust .sub_right1 p{font-size: 1.4rem; padding: 0 50px 0 0; }
+
+    .sec {gap: 0; align-items: center;}
+    .sec .sub_right2 img{width: 100%;}
+    .sec .sub_left2{padding: 0 100px;}
+    .sec .sub_left2 span{font-size: 2.5rem;}
+    .sec .sub_left2 p{font-size: 1.4rem;}
+
+  
+   }
+   
+   
+   @media (max-width:768px) {
+    .fust{gap: 0;align-items: center;}
+    .fust .sub_left1{width: 70%; padding: 0 20px 0 0;}
+    .fust .sub_left1 img{width: 100%;}
+    .fust .sub_right1{padding: 10px; width: 100%;}
+    .fust .sub_right1 p{font-size: 1rem; }
+
+
+    .sec{gap: 0;align-items: center;}
+    .sec .sub_right2{width: 100%;}
+    .sec .sub_right2 img{width: 100%;}
+    .sec .sub_left2{padding: 10px; width: 100%;}
+    .sec .sub_left2 p{font-size: 1rem; }
+    .sec .sub_left2 span{font-size: 1.8rem;}
+       
+       
+   }
+
+
+
+.contents2{background: url(../img/sub/brandStory_BG2.png) no-repeat center / cover; height: 100%; width: 100%;}
+.fust2{display: flex; gap: 50px; align-items: center; padding: 50px 0;}
+
+.fust2 .fust2_left {font-family: "Orbit", sans-serif;}
+.fust2 .fust2_left p span{font-size: 3.5rem;}
+
+.sec2{display: flex; gap: 50px; align-items: center;}
+.sec2 .sec2_left img{ width: 100%;}
+
+
+.sec2 .sec2_right{  font-family: "Orbit", sans-serif;}
+.sec2 .sec2_right p {padding-left: 300px;}
+.sec2 .sec2_right span{font-size: 3.5rem;}
+
+
+
+@media (max-width:1200px) {
+
+    .fust2 {gap: 0;}
+    .fust2 .fust2_left h3{padding: 0 0 0 100px;}
+    .fust2 .fust2_left p{padding: 0 0 0 100px;}
+    .fust2 .fust2_left p span{font-size: 2.5rem;}
+    .fust2 .fust2_right img{width: 100%;}
+
+
+    .sec2 .sec2_left img{ width: 100%; padding: 0 0 0 100px;}
+    .sec2 .sec2_right p {padding: 0 100px 0 0;}
+    .sec2 .sec2_right span{font-size: 2.5rem;}
+
+}
+
+
+
+
+@media (max-width:768px) {
+
+
+    .fust2 {gap: 0;}
+    .fust2 .fust2_left h3{padding:0 0 ; font-size: 1.2rem;}
+    .fust2 .fust2_left p{padding:0 0 ; font-size: 1rem;}
+    .fust2 .fust2_left p span{font-size: 1.5rem;}
+    .fust2 .fust2_right{width: 50%;}
+    .fust2 .fust2_right img{width: 100%;}
+
+
+
+    .sec2{gap: 0;}
+    .sec2 .sec2_left{width: 50%;}
+    .sec2 .sec2_left img{ width: 100%; padding: 0 0 ;}
+    .sec2 .sec2_right p {padding: 0 0; font-size: 1rem;}
+    .sec2 .sec2_right span{font-size: 1.5rem;}
+
+
+}

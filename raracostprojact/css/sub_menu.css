@@ -1,0 +1,152 @@
+@charset "urf-8";
+
+#container2{padding: 81px 0 0;}
+#container2  .menu_title{ text-align: center; background: url(../img/sub2/s_visual5.png) no-repeat center / cover; width: 100%; color: #fff; height: 300px;}
+#container2  .menu_title h2{padding: 20px 0; font-size: 5rem;font-family: "Orbit", sans-serif;padding-top: 50px;}
+#container2  .menu_title p{font-size: 3rem;font-family: "Orbit", sans-serif}
+
+
+
+@media (max-width:1200px) {
+    #container2  .menu_title{height: 250px;}
+
+    #container2  .menu_title h2{font-size: 4rem;}
+    #container2  .menu_title p{font-size: 2.5rem;}
+
+}
+
+@media (max-width:768px) {
+
+    #container2  .menu_title{height: 200px;}
+
+    #container2  .menu_title h2{font-size: 3rem;}
+    #container2  .menu_title p{font-size: 2rem;}
+
+    
+}
+
+
+#container2 .inner .menu_list ul{display: flex;  flex-wrap: wrap; padding: 50px 0; justify-content: center;}
+
+
+
+
+
+#container2 .inner .menu_list .tab_btn .tab_list1{background: rgba(198, 16, 37, 0.8); color: #fff; transition: all 0.5s;font-family: "Orbit", sans-serif}
+#container2 .inner .menu_list .tab_btn .tab_list1:hover{background: #000;}
+
+
+
+
+#container2 .inner .menu_list .tab_btn .tab_list2{background: rgba(198, 16, 37,0.8); color: #fff;transition: all 0.5s;font-family: "Orbit", sans-serif}
+#container2 .inner .menu_list .tab_btn .tab_list2:hover{background: #000;}
+
+
+
+#container2 .inner .menu_list .tab_btn .tab_list3{background: rgba(198, 16, 37,0.8); color: #fff;transition: all 0.5s;font-family: "Orbit", sans-serif}
+#container2 .inner .menu_list .tab_btn .tab_list3:hover{background: #000;}
+
+#container2 .inner .menu_list .tab_btn .tab_list4{background: rgba(198, 16, 37,0.8); color: #fff;transition: all 0.5s;font-family: "Orbit", sans-serif}
+#container2 .inner .menu_list .tab_btn .tab_list4:hover{background: #000;}
+
+#container2 .inner .menu_list .tab_btn .tab_list5{background: rgba(198, 16, 37,0.8); color: #fff;transition: all 0.5s;font-family: "Orbit", sans-serif}
+#container2 .inner .menu_list .tab_btn .tab_list5:hover{background: #000;}
+
+#container2 .inner .menu_list .tab_btn .tab_list6{background: rgba(198, 16, 37,0.8); color: #fff;transition: all 0.5s;font-family: "Orbit", sans-serif}
+#container2 .inner .menu_list .tab_btn .tab_list6:hover{background: #000;}
+
+
+@media (max-width:1200px) {
+
+   
+
+}
+
+
+
+@media (max-width:768px) {
+    #container2 .inner .menu_list ul{align-items: center;}
+    #container2 .inner .menu_list .tab_btn .tab_list1{padding: 15px; font-size: 1.6rem;}
+    #container2 .inner .menu_list .tab_btn .tab_list2{padding: 15px; font-size: 1.6rem;}
+    #container2 .inner .menu_list .tab_btn .tab_list3{padding: 15px; font-size: 1.6rem;}
+    #container2 .inner .menu_list .tab_btn .tab_list4{padding: 15px; font-size: 1.6rem;}
+    #container2 .inner .menu_list .tab_btn .tab_list5{padding: 15px; font-size: 1.6rem;}
+    #container2 .inner .menu_list .tab_btn .tab_list6{padding: 15px; font-size: 1.6rem;}
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+#container2 .inner .menu_list ul .tab_list1{background:#fff; font-size: 3rem; cursor: pointer; padding: 0 20px; border: 1px solid rgba(0, 0, 0,0.3); }
+#container2 .inner .menu_list ul .tab_list2{background:#fff; font-size: 3rem; cursor: pointer; padding: 0 20px; border: 1px solid rgba(0, 0, 0,0.3); }
+#container2 .inner .menu_list ul .tab_list3{background:#fff; font-size: 3rem; cursor: pointer; padding: 0 20px; border: 1px solid rgba(0, 0, 0,0.3); }
+#container2 .inner .menu_list ul .tab_list4{background:#fff; font-size: 3rem; cursor: pointer; padding: 0 20px; border: 1px solid rgba(0, 0, 0,0.3); }
+#container2 .inner .menu_list ul .tab_list5{background:#fff; font-size: 3rem; cursor: pointer; padding: 0 20px; border: 1px solid rgba(0, 0, 0,0.3);; }
+#container2 .inner .menu_list ul .tab_list6{background:#fff; font-size: 3rem; cursor: pointer; padding: 0 20px; border: 1px solid rgba(0, 0, 0,0.3); }
+
+
+#container2 .inner .menu_list ul .menu_img1{width: calc(100% / 4);border: 1px solid rgba(0, 0, 0,0.3);;  }
+#container2 .inner .menu_list ul .menu_img1 img{width: 100%; text-align: center; display: block;}
+
+
+#container2 .inner .menu_list ul .menu_img2{width: calc(100% / 4);border: 1px solid rgba(0, 0, 0,0.3);  }
+#container2 .inner .menu_list ul .menu_img2 img{width: 100%; text-align: center; display: block;}
+
+#container2 .inner .menu_list ul .menu_img3{width: calc(100% / 4);border: 1px solid rgba(0, 0, 0,0.3);  }
+#container2 .inner .menu_list ul .menu_img3 img{width: 100%; text-align: center; display: block;}
+
+
+#container2 .inner .menu_list ul .menu_img4{width: calc(100% / 4);border: 1px solid rgba(0, 0, 0,0.3);  }
+#container2 .inner .menu_list ul .menu_img4 img{width: 100%; text-align: center; display: block;}
+
+
+#container2 .inner .menu_list ul .menu_img5{width: calc(100% / 4);border: 1px solid rgba(0, 0, 0,0.3);  }
+#container2 .inner .menu_list ul .menu_img5 img{width: 100%; text-align: center; display: block;}
+
+#container2 .inner .menu_list ul .menu_img6{width: calc(100% / 4);border: 1px solid rgba(0, 0, 0,0.3);  }
+#container2 .inner .menu_list ul .menu_img6 img{width: 100%; text-align: center; display: block;}
+
+
+#container2 .inner  .menu_list ul li{ position: relative;}
+
+#container2 .inner  .menu_list ul li img{display: block; width: 100%;}
+
+#container2 .inner  .menu_list  ul li .over { text-align: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: #fff; font-family: "Orbit", sans-serif}
+#container2 .inner  .menu_list  ul li .over p{ display: inline-block; width: 100%; padding-top: 110px; display: none; color: #ddd;}
+#container2 .inner  .menu_list  ul li .over p span{font-size: 2.5rem;  color: #fff; font-family: "Nanum Gothic Coding", monospace; }
+#container2 .inner  .menu_list  ul li .over h4{ display: inline-block; width: 100%; ; display: none; position: absolute; top: 20%; left: 0; color: #f00;}
+
+#container2 .inner  .menu_list  ul li:hover .over {background: rgba(0, 0, 0,0.8); transition: all 0.5s; }
+#container2 .inner  .menu_list  ul li:hover .over p{display: block;}
+#container2 .inner  .menu_list  ul li:hover .over h4{display: block;}
+
+
+@media (max-width:1200px) {
+
+    #container2 .inner  .menu_list ul li img{width: 100%;}
+    #container2 .inner  .menu_list  ul li .over h4{font-size: 1.2rem;}
+    #container2 .inner  .menu_list  ul li .over p span{font-size: 1.6rem;}
+    
+       #container2 .inner  .menu_list  ul li .over p{ display: inline-block; width: 100%; padding-top: 65px; display: none; color: #ddd; font-size: 1.rem;}
+    
+
+}
+
+
+
+@media (max-width:768px) {
+
+    #container2 .inner  .menu_list  ul li .over h4{font-size: 0.8rem;}
+    #container2 .inner  .menu_list  ul li .over p span{font-size: 1rem;}
+    
+       #container2 .inner  .menu_list  ul li .over p{ display: inline-block; width: 100%; padding-top: 40px; display: none; color: #ddd; font-size: 0.6rem;}
+    
+
+}
